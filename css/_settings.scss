@@ -1,0 +1,41 @@
+/* General*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-size: 100%;
+    max-width:1500px ;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Clearfix*/
+
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix{
+	*zoom: 1;
+}
+

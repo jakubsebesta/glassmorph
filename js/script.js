@@ -1,0 +1,1 @@
+$('.post-title').animate({left:500},2000).hide(2300);
