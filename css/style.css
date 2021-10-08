@@ -152,16 +152,14 @@ ul li a {
   transition: top 0.5s, z-index 0s, -webkit-transform 0.5s;
   transition: top 0.5s, z-index 0s, transform 0.5s;
   transition: top 0.5s, z-index 0s, transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transition-delay: 0.5s, 0.5s, 0;
-          transition-delay: 0.5s, 0.5s, 0;
+  -webkit-transition-delay: 2s, 1s, 0;
+          transition-delay: 2s, 1s, 0;
 }
 
 ul li a:hover {
-  -webkit-transition-delay: 0, 0.5s, 0.5s;
-          transition-delay: 0, 0.5s, 0.5s;
-  top: -50px;
-  -webkit-transform: translateY(50px);
-          transform: translateY(50px);
+  -webkit-transition-delay: 0, 1s, 2s;
+          transition-delay: 0, 1s, 2s;
+  top: -25px;
   z-index: 11;
 }
 

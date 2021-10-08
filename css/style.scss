@@ -90,12 +90,12 @@ ul{
             box-shadow: 0 5px 45px rgba(0, 0, 0,0.1);
             overflow: hidden;
             transition: top 0.5s, z-index 0s, transform 0.5s;
-            transition-delay: 0.5s, 0.5s, 0;
+            transition-delay: 2s, 1s, 0;
 
             &:hover{
-                transition-delay: 0, 0.5s, 0.5s;
-                top: -50px;
-                transform: translateY(50px);
+                transition-delay: 0, 1s, 2s;
+                top: -25px;
+                
                 z-index: 11;
                 
             }
