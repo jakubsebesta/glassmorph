@@ -122,3 +122,14 @@ ul{
     }
 }
 
+#headline{
+    color: $color-secondary;
+    position: absolute;
+    font-size: 3.5em;
+    top: 2em;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+    letter-spacing: .18em;
+    
+}

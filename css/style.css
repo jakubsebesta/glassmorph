@@ -183,4 +183,16 @@ ul li a:hover:before {
   -webkit-transform: skewX(45deg) translate(-4.6875em);
           transform: skewX(45deg) translate(-4.6875em);
 }
+
+#headline {
+  color: #9980F2;
+  position: absolute;
+  font-size: 3.5em;
+  top: 2em;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  z-index: 99;
+  letter-spacing: .18em;
+}
 /*# sourceMappingURL=style.css.map */
